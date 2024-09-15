@@ -1,0 +1,10 @@
+.header {
+  background-image: url(../src/images//bg-hero-desktop.svg);
+  background-color: var(--pale-cyan);
+  height: 500px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
