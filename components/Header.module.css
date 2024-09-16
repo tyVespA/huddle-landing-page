@@ -41,3 +41,16 @@
   max-width: 50ch;
   padding-bottom: 25px;
 }
+
+@media screen and (max-width: 900px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+  .headerText {
+    justify-self: center;
+    text-align: center;
+  }
+  .headerText h1 {
+    margin-inline: auto;
+  }
+}
