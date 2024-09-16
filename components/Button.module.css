@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: transparent;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.white {
+  background-color: white;
+}
+
+.pink {
+  background-color: var(--pink);
+  color: white;
+}
+
+.button:hover {
+  filter: opacity(0.8);
+}
