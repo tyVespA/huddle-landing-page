@@ -2,17 +2,42 @@
   /* mq */
   background-image: url(../src/images//bg-hero-desktop.svg);
   background-color: var(--pale-cyan);
-  height: 500px;
+  padding-bottom: 50px;
+}
+
+.headerContainer > * {
+  max-width: 1350px;
+  margin-inline: auto;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 30px 50px 60px 50px;
 }
 
+.nav img {
+  max-width: 200px;
+}
+
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
   gap: 30px;
   padding-inline: 50px;
+}
+
+.headerText {
+  align-self: center;
+}
+
+.headerText h1 {
+  max-width: 20ch;
+  margin-bottom: 25px;
+}
+
+.headerText p {
+  max-width: 50ch;
+  padding-bottom: 25px;
 }
